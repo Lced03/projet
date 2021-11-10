@@ -1,0 +1,26 @@
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#container>div{
+    width: 25%;
+
+}
+img{
+    width: 100%;
+    height: auto;
+}
+@media(max-width: 992px){ /* pour une largeur de navigateur plus petite ou égale à 992px*/
+    #container>div{
+    width: 33.33333%;
+    }
+}
+@media (max-width: 768px){
+    #container>div{
+        width: 80%;
+    }
+}
+
+

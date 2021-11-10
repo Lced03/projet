@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: monospace;
+}
+.navbar{
+    background-color: rgba(120, 121, 120, 0.288);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 6vh;
+    align-items: center;
+     
+}
+.navbar img{
+        width: 10vh;
+        align-items: flex-start;
+    
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+header{
+    display: flex;
+    text-align: center;
+    background-image: url(../img/pexels-pixabay-373076.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 70vh;
+    background-position: center;
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    justify-content: space-around;
+    padding: 14px 70px;   
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: rgba(0, 0, 0, 0.534);
+    color: black;
+}
+h1{
+    margin: 0px 0px 10px 0px;
+    padding-top: 250px ;
+    font-size: 50px;
+    font-family: monospace;
+    font-style: italic ;
+    text-decoration: underline;
+}
+header p{
+    font-family: monospace;
+    font-size: 15px;
+    text-align: justify;
+    width: 70%;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    
+}
+#Moi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 14px;
+}
+#Moi img{
+    height: auto;
+    width: 45%;
+}
+#Moi div{
+    width: 55%;
+    text-align: justify;
+    justify-items: center;
+    padding: 15px;   
+}
+h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#text{
+    display: block;
+    align-content: flex-start;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.123);
+}
+#galerie{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
+#Contacter{
+    background-color: black;
+    color: white;
+    text-align: center;
+    text
+    
+
+}
+#Contacter ul{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
